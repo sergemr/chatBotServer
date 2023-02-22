@@ -7,7 +7,11 @@
 - OpenAI account and API Key
   > create an account [here](https://openai.com/)
 - NGROK for exposing our local server to internet for testing
+
   > get it from [here](https://ngrok.com/)
+
+  > start with ngrok http 5001
+
 - Nodejs as a programing tool
   > install it from [here](https://nodejs.org/en/download/)
 
@@ -27,7 +31,7 @@
 
 ### Kudos
 
-El autor del tutorial:
+Del autor del tutorial:
 
 I am `Raj Kapadia`, I am passionate about `AI/ML/DL` and their use in different domains, I also love to build `chatbots` using `Google Dialogflow ES/CX`, I have backend development experience with Python[Flask], and NodeJS[Express] For any work, you can reach out to me at...
 
