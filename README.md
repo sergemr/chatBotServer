@@ -1,30 +1,35 @@
-# Connect OpenAI to Dialogflow CX
+Conectar OpenAI a Dialogflow CX
+Cosas que necesitará
+Dialogflow CX agente
 
-### Things you will need
+algunos conocimientos de Dialogflow CX también
 
-- Dialogflow CX agent
-  > some knowledge of Dialogflow CX as well
-- OpenAI account and API Key
-  > create an account [here](https://openai.com/)
-- NGROK for exposing our local server to internet for testing
+OpenAI cuenta y clave de API
 
-  > get it from [here](https://ngrok.com/)
+crear una cuenta aquí
 
-  > start with ngrok http 5001
+NGROK para exponer nuestro servidor local a internet para pruebas
 
-- Nodejs as a programing tool
-  > install it from [here](https://nodejs.org/en/download/)
+consígalo desde aquí
 
-### How to use it
+empezar con ngrok http 5001
 
-- install all the required packages in the project folder
-  > use the command `npm install --save`
-- create a `.env` file in the folder and set two variables `PORT` and `OPENAI_API_KEY`
-- run the local server `npm run start`
-- start NGROK engine
-  > make sure the ports are same
-- set the NGROK url in Webhook section
-  > `YOUR NGRK URL/dialogflow` it should be something like this
-- test the connection
+Nodejs como herramienta de programación
+
+instalarlo desde aquí
+
+Como usarlo
+instala todos los paquetes necesarios en la carpeta del proyecto
+usa el comando npm install --save
+
+crear un archivo .env en la carpeta y establecer dos variables PORT y OPENAI_API_KEY
+ejecuta el servidor local npm run start
+arranca el motor NGROK
+asegúrate de que los puertos son los mismos
+
+establece la url de NGROK en la sección Webhook
+TU URL/dialogflow NGRK debería ser algo como esto
+
+prueba la conexión
 
 # chatBotServer
